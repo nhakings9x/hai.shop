@@ -1,0 +1,13 @@
+https://cloudinary.com/console/c-74bc2ddb7759a48ec5dc7347b83995/media_library/folders/1c865f7b5679fe528bcd388cc168eb2a
+
+https://cloud.mongodb.com/v2/608503ff2dc3d931863d9675#metrics/replicaSet/608504c0659ee23f94436942/explorer/myFirstDatabase/categories/find
+
+start:
+npm run dev
+pkill node
+admin: 1
+user: 0 mogodb
+tk admin:
+admin@gmail.com
+03091999Hung
+
