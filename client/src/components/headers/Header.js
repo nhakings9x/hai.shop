@@ -52,12 +52,12 @@ function Header() {
 
             <div className="logo">
                 <h1>
-                    <Link to="/">{isAdmin ? 'Admin' : 'NNH Shop'}</Link>
+                    <Link style={{color: '#fff'}} to="/">{isAdmin ? 'Admin' : 'NNH Shop'}</Link>
                 </h1>
             </div>
 
-            <ul style={styleMenu}>
-                <li><Link to="/">{isAdmin ? 'Sản phẩm ' : 'Shop'}</Link></li>
+            <ul style={styleMenu} onClick={() => setMenu(!menu)}>
+                <li style={{color:'#111'}}><Link to="/">{isAdmin ? 'Sản phẩm ' : 'Shop'}</Link></li>
 
                 {isAdmin && adminRouter()}
 

@@ -92,7 +92,7 @@ function Cart() {
 
   if (cart.length === 0)
     return (
-      <h2 style={{ textAlign: "center", fontSize: "5rem" }}>Cart Empty</h2>
+      <h2 style={{ textAlign: "center", fontSize: "3rem" }}>Không có sản phẩm nào trong giỏ</h2>
     );
 
   return (

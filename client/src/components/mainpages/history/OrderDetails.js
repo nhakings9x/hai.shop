@@ -8,6 +8,9 @@ function OrderDetails() {
     const [orderDetails, setOrderDetails] = useState([])
 
     const params = useParams()
+    const formatVND = (n, currency) => {
+        return `${n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} ${currency}`;
+      };
 
     useEffect(() => {
         if(params.id){
@@ -57,7 +60,7 @@ function OrderDetails() {
                             <td><img src={item.images.url} alt="" /></td>
                             <td>{item.title}</td>
                             <td>{item.quantity}</td>
-                            <td>$ {item.price * item.quantity}</td>
+                            <td>{formatVND(item.price * item.quantity, "VND")}</td>
                         </tr>
                         ))
                     }

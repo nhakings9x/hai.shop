@@ -10,7 +10,7 @@ header{
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    z-index: 11;
+    z-index: 12;
   /* background: white; */
     background-color: teal;
     /* color: #fff; */
@@ -23,6 +23,11 @@ header a{
     text-transform: uppercase;
     color: #fff  
     /* color: #555; */
+}
+@media (max-width: 500px){
+    header a{
+        color: black;
+    }
 }
 header ul li{
     display: inline-block;

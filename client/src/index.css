@@ -22,6 +22,7 @@ code {
 }
 .Main {
   padding: 0 20px;
+  min-height: 329px;
 }
 .logo{
   padding-left: 20px;
@@ -140,6 +141,7 @@ select {
   } */
   .Main{
     padding: 0 10px;
+    min-height: calc(100vh - 405px);
   }
   .detail{
     font-size: 100%;
