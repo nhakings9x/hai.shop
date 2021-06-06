@@ -51,16 +51,16 @@ function CreateProduct() {
     const handleUpload = async e =>{
         e.preventDefault()
         try {
-            if(!isAdmin) return alert("You're not an admin")
+            if(!isAdmin) return alert("Bạn không phải quản trị viên!")
             const file = e.target.files[0]
             
-            if(!file) return alert("File not exist.")
+            if(!file) return alert("File không tồn tại!")
 
             if(file.size > 1024 * 1024) // 1mb
-                return alert("Size too large!")
+                return alert("Size ảnh lớn hơn cho phép!")
 
             if(file.type !== 'image/jpeg' && file.type !== 'image/png') // 1mb
-                return alert("File format is incorrect.")
+                return alert("File ảnh không hỗ trợ!")
 
             let formData = new FormData()
             formData.append('file', file)
@@ -79,7 +79,7 @@ function CreateProduct() {
 
     const handleDestroy = async () => {
         try {
-            if(!isAdmin) return alert("You're not an admin")
+            if(!isAdmin) return alert("Bạn không phải quản trị viên!")
             setLoading(true)
             await axios.post('/api/destroy', {public_id: images.public_id}, {
                 headers: {Authorization: token}
@@ -99,8 +99,8 @@ function CreateProduct() {
     const handleSubmit = async e =>{
         e.preventDefault()
         try {
-            if(!isAdmin) return alert("You're not an admin")
-            if(!images) return alert("No Image Upload")
+            if(!isAdmin) return alert("Bạn không phải quản trị viên!")
+            if(!images) return alert("Không có ảnh")
 
             if(onEdit){
                 await axios.put(`/api/products/${product._id}`, {...product, images}, {
@@ -126,7 +126,7 @@ function CreateProduct() {
             <div className="upload">
                 <input type="file" name="file" id="file_up" onChange={handleUpload}/>
                 {
-                    loading ? <div id="file_img"><Loading /></div>
+                    loading ? <div id="file_img"><Loading height="100px" width="100px" /></div>
 
                     :<div id="file_img" style={styleUpload}>
                         <img src={images ? images.url : ''} alt=""/>

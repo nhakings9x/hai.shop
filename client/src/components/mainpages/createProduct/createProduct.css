@@ -9,7 +9,6 @@
     max-width: 450px;
     height: 500px;
     width: 100%;
-    border: 1px solid #ddd;
     padding: 15px;
     margin: 20px;
     position: relative;
@@ -28,11 +27,14 @@
     top:0;
     left: 0;
     background: white;
-    color: rgb(250, 200, 107);
-    font-size: 17rem;
+    color: teal;
+    font-size: 12rem;
     text-align: center;
     cursor: pointer;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #file_img{
     width: 100%;
@@ -41,6 +43,9 @@
     top:0;
     left: 0;
     background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #file_img img{
     width: 100%;
@@ -84,4 +89,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 700;
+    cursor: pointer;
+    border-radius: 50px;
+    background: teal;
 }
