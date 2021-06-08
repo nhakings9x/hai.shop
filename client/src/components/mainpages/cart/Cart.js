@@ -122,8 +122,13 @@ function Cart() {
       ))}
 
       <div className="total">
-        <h3>Tổng:{formatVND(total, 'VND')}</h3>
+        <h3>Tổng:&nbsp;{formatVND(total, 'VND')}</h3>
+        <div className="box-paypal">
+        <div className="box-paypal_label">
+          Thanh toán qua Paypal:
+        </div>
         <PaypalButton total={totalUSD} tranSuccess={tranSuccess} />
+        </div>
       </div>
     </div>
   );
