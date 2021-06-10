@@ -10,7 +10,7 @@ function Footer() {
             <h2>Coders By</h2>
             <div className="wrapper-footer-items">
               <img
-                src={"https://scontent.fsgn2-5.fna.fbcdn.net/v/t1.6435-9/106895025_2653565428297476_7292329236160398431_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=Ixpp5roqb30AX-airUi&_nc_ht=scontent.fsgn2-5.fna&oh=1bbdd22246799a5a3116aac4ea70a10a&oe=60BE4614"}
+                src={"https://scontent.fpnh22-3.fna.fbcdn.net/v/t1.6435-1/p160x160/106895025_2653565428297476_7292329236160398431_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=7206a8&_nc_ohc=m00WEcB7n4EAX-iLRlB&tn=Tx2KDC4dzTCa4nrN&_nc_ht=scontent.fpnh22-3.fna&tp=6&oh=4b963193589131810b695a5c5bfb8889&oe=60E667FD"}
                 alt=""
                 height={"30px"}
                 width={"30px"}
