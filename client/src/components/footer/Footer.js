@@ -10,12 +10,12 @@ function Footer() {
             <h2>Coders By</h2>
             <div className="wrapper-footer-items">
               <img
-                src={"https://scontent.fpnh22-3.fna.fbcdn.net/v/t1.6435-1/p160x160/106895025_2653565428297476_7292329236160398431_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=7206a8&_nc_ohc=m00WEcB7n4EAX-iLRlB&tn=Tx2KDC4dzTCa4nrN&_nc_ht=scontent.fpnh22-3.fna&tp=6&oh=4b963193589131810b695a5c5bfb8889&oe=60E667FD"}
+                src={"https://scontent.fhph1-1.fna.fbcdn.net/v/t1.6435-9/30743911_810356072493472_5070468545175879680_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=Zt3bVdg-mZcAX_63G73&_nc_ht=scontent.fhph1-1.fna&oh=00_AT_uC2isL7YMn2j5sq-T9etOW688Ofq7TRRWFpN7ReB_vw&oe=62E3D920"}
                 alt=""
                 height={"30px"}
                 width={"30px"}
               />
-                <h2>Nguyễn Ngọc Hưng</h2>
+                <h2>Nguyễn Hải Anh</h2>
               </div>
             </div>
             <div className="footer-items">
@@ -31,13 +31,13 @@ function Footer() {
                 </li> */}
                 <li>
                   <i className="fa fa-envelope" aria-hidden="true"></i>
-                  nguyenngochung.work@gmail.com
+                  haianh.nguyen99nd@gmail.com
                 </li>
               </ul>
             </div>
             {/* <div id="map"></div> */}
           </div>
-          <div className="footer-bottom">@Nguyen Ngoc Hung</div>
+          <div className="footer-bottom">@Nguyen Hai Anh</div>
         </div>
       {/* </div> */}
     </footer>

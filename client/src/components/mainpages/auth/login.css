@@ -35,11 +35,10 @@
     align-items: center;
 }
 .login-page form button{
-    background: rgb(3, 165, 206);
     color: white;
     text-transform: uppercase;
     letter-spacing: 2px;
-    background: rgb(3, 165, 206);
+    background: #9e5bab;
     border-radius: 5px;
 }
 .login-page form a{

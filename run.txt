@@ -8,6 +8,6 @@ pkill node
 admin: 1
 user: 0 mogodb
 tk admin:
-admin@gmail.com
-03091999Hung
+haianh.nguyen99nd@gmail.com
+haianh12
 

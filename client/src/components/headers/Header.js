@@ -52,7 +52,7 @@ function Header() {
 
             <div className="logo">
                 <h1>
-                    <Link style={{color: '#fff'}} to="/">{isAdmin ? 'Admin' : 'NNH Shop'}</Link>
+                    <Link style={{color: '#fff'}} to="/">{isAdmin ? 'Admin' : 'NHA Shop'}</Link>
                 </h1>
             </div>
 
